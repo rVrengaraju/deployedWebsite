@@ -1,0 +1,217 @@
+body {
+	font-family: courier new; /*'Roboto', sans-serif;*/
+	color: black;
+}
+
+.blue {
+	width: 100px;
+	height: 100px;
+	background: blue;
+}
+
+.nav-link {
+	padding-right: .5rem !important;
+	padding-left: .5rem !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.bg-blue {
+	background: #4C5F8D;
+	box-shadow: 0px 5px 10px;
+	transition: background 2s;
+}
+
+.navbar-toggler {
+	background-color: rgba(128,128,128,0.2);
+}
+
+.navBack {
+	transition: background  0.3s;
+}
+
+.parallax {
+	background-image: url("./pictures/sauce_pic.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	background-position: top;
+	height: 60vw;
+	position: relative;
+	z-index: -10;
+}
+
+.greeting {
+	z-index: 5;
+	font-size: 3vw;
+	font-weight: lighter;
+	position: absolute;
+	left: 62%;
+	right: 1.5%;
+	top: 18vh;
+	text-align: right;
+	color: white;
+	/*font-family: courier new;*/
+	text-shadow: 2px 2px 4px black;
+}
+
+#square {
+	width: 100px;
+	height: 100px;
+	background: red;
+	display: none;
+}
+
+.fadeIn{
+	opacity: 0;
+}
+
+.aboutMeBox {
+	padding-bottom: 10vh;
+	background: #eee;
+	z-index: -1
+}
+
+.aboutMeBox-header h1{
+	text-align: center;
+	padding-top: 12vh;
+}
+
+.aboutMeBox-text {
+	text-align: left;
+	font-size: 20px;
+	padding-top: 4vh;
+	margin-bottom: 10vh;
+	cursor: text;
+}
+
+.cardHeading{
+	font-size: 30px; 
+	color: #5e9516;
+}
+
+.cardSubHeading{
+	font-weight: bold;
+	font-size: 17px;
+	color: #37c;
+}
+
+.cardText{
+	font-weight: 100;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.margin-bottom{
+	margin-bottom: 5%;
+}
+
+.resize_fit_center {
+	width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+
+.addPadding{
+	padding-top: 0%;
+	padding-bottom: 3%;
+}
+
+.text{
+	overflow: hidden;
+	word-break: normal;
+	word-wrap: break-word;
+	display: block;
+	cursor: text;
+}
+
+.date{
+	font-style: italic;
+}
+
+.myPassionsBox {
+	padding-bottom: 8vh;
+	background: white;
+	z-index: -1
+}
+
+.myPassionsBox-header{
+	text-align: center;
+	padding-top: 12vh;
+	padding-bottom: 5vh;
+}
+
+#roundBorder img{
+	border-radius: 30px;
+}
+
+.artBox {
+	padding-bottom: 10vh;
+	z-index: -1;
+	background: #eee;
+}
+
+.artHeader{
+	text-align: center;
+	padding-top: 12vh;
+	padding-bottom: 3vh;
+}
+
+.artText{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 0vh;
+	margin-bottom: 2vh;
+	cursor: text;
+}
+
+.musicContainer{
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10px;
+	background: green;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 5vh;
+	transition: background 0.5s;
+	color: white;
+}
+
+#Connect{
+	text-align: center;
+	background: #4C5F8D;
+	color: white;
+}
+
+.contactMe{
+	padding-top: 4vh;
+}
+
+p a{
+	color: white;
+	transition: color 0.2s;
+}
+
+p a:hover 
+{ 
+     text-decoration:none; 
+     cursor:pointer; 
+     color: black; 
+}
+
+i{
+	color: white;
+	transition: color 0.2s;
+	padding: 10px 20px;
+}
+
+i:hover{
+	color: black;
+}
+
+
+
