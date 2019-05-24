@@ -145,6 +145,11 @@ body {
 	padding-bottom: 5vh;
 }
 
+.url {
+	color: blue;
+	font-weight: bold;
+}
+
 #roundBorder img{
 	border-radius: 30px;
 }
