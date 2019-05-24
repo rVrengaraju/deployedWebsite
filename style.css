@@ -33,7 +33,7 @@ body {
 }
 
 .parallax {
-	background-image: url("./pictures/sauce_pic.jpg");
+	background-image: url("./pictures/sauce_pic_opt.jpg");
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -143,6 +143,11 @@ body {
 	text-align: center;
 	padding-top: 12vh;
 	padding-bottom: 5vh;
+}
+
+.url {
+	color: blue;
+	font-weight: bold;
 }
 
 #roundBorder img{
