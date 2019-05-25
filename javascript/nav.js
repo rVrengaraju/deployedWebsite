@@ -4,14 +4,12 @@ if(windowWidth > 991){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 100) {
 	    $(".navBack").css({
-        "background": "rgba(76, 95, 141, 1)",
-        "boxShadow": "0px 3px 7px 2px"
+        "background": "rgba(76, 95, 141, 1)"
     });
 	  }
 	  else{
 		  $(".navBack").css({
-        "background": "transparent",
-        "boxShadow": "0px 0px 0px"
+        "background": "transparent"
       });  	
 	  }
   });
