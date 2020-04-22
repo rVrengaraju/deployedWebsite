@@ -89,6 +89,12 @@ body {
 	cursor: text;
 }
 
+.resize_fit_center_interest{
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
 .cardHeading{
 	font-size: 30px; 
 	color: #5e9516;
@@ -111,9 +117,14 @@ body {
 }
 
 .resize_fit_center {
-	width: 100%;
+	width: 70%;
 	max-height: 100%;
 	vertical-align: middle;
+}
+@media only screen and (max-width: 990px) {
+  .resize_fit_center{
+  	display: none;
+  }
 }
 
 .addPadding{
@@ -150,7 +161,15 @@ body {
 	font-weight: bold;
 }
 
+#roundBorder{
+	text-align: right;
+}
+
 #roundBorder img{
+	border-radius: 30px;
+}
+
+#roundBorder_interests img{
 	border-radius: 30px;
 }
 
